@@ -1,0 +1,42 @@
+.c1 {
+  display: inline-block;
+}
+.type {
+  font-size: 1.5rem;
+  overflow: hidden;
+  border-right: 0.12em solid black;
+  border-right: 15px;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 4s steps(25, end) forwards;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+
+}
+
+
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+
+.blink-animation {
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+h1 {
+  color: rgb(144, 0, 255);
+}
